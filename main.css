@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+}
+.nav-header{
+    height: 60px;
+    left:0;
+    right:0;
+    top:0;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    background-color: #fafafa;
+    border-bottom: solid 1px #eeeeee;
+}
+#google-logo {
+    width: 160px;
+    height: 50px;   
+    position: relative;
+    padding-bottom: 18px;
+    margin-right: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#form-bar {
+    width: 500px;
+    font-size: 16px;
+    height: 33px;
+    left: 10px;
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08)
+}
+#search-bar{
+    width: 420px;
+    border: none;
+    background-color: white;
+    outline: none;
+    font-size: 13px;
+}
+#microphone {
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+#googlesearch{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    color: #4285f4;
+    padding: 6px;
+}
+.top-nav{
+    position: fixed;
+    right: 2%;
+}
+.top-nav ul {
+	list-style-type: none;
+	float: right;
+    margin-top: 10px;
+    right: 0%;
+}
+li {
+	display: inline;
+    padding: 4px;
+}
+
+.top-nav li a {
+    color: hsl(0, 0%, 20%);
+    font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-nav input {
+	background-color: #4285f4;
+	color: #fff;
+	height: 30px;
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 0 16px;
+}
+.top-nav #apps {
+	position: relative;
+    top: 4px;
+    height: 24px;
+	width: 24px;
+}
+.top-nav #notifications {
+	position: relative;
+    top: 4px;
+    height: 24px;
+	width: 24px;
+}
+.top-nav #profile_pic {
+	position: relative;
+	top: 4px;
+	height: 24px;
+	width: 24px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+	margin-top: 20px;
+    height: 50px;
+    bottom:0;
+    right:0;
+    left:0;
+    position: fixed;
+    bottom: 0%;
+    background-color: #eeeeee;
+    width: 100%;
+}
+#foot-all {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 17px;
+}
+#footer-left {
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-left: 25px;
+}
+#footer-right {
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-right: 25px;
+    right:0;
+}
