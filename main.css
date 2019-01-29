@@ -5,8 +5,9 @@
 	font-family: arial, sans-serif;
 	text-decoration: none;
 }
+/* Top Nav bar section */
 .nav-header{
-    height: 60px;
+    height: 110px;
     left:0;
     right:0;
     top:0;
@@ -26,7 +27,7 @@
     padding-left: 10px;
 }
 #form-bar {
-    width: 500px;
+    width: 600px;
     font-size: 16px;
     height: 33px;
     left: 10px;
@@ -47,8 +48,9 @@
     height: 24px;
     width: 24px;
     background-size: 24px;
+    align-self: center;
     vertical-align: middle;
-    padding-top: 6px;
+    margin-left: 100px;
 }
 #googlesearch{
     height: 24px;
@@ -71,12 +73,10 @@ li {
 	display: inline;
     padding: 4px;
 }
-
 .top-nav li a {
     color: hsl(0, 0%, 20%);
     font-size: 14px;
 }
-
 a {
 	text-decoration: none;
     color: inherit;
@@ -109,21 +109,47 @@ a {
 	height: 24px;
 	width: 24px;
 }
+#bottom-row{
+    margin-top: 88px;
+    position: fixed;
+    padding-left: 70px;
+    display: flex;
+    font-size: 13px;
+}
+#search-links{
+    position: relative;
+    display: flex;
+    font-size: 13px;
+    opacity: .7;
+    margin-left: 150px;
+}
+#right-links{
+    font-size: 13px;
+    position: relative;
+    margin-left: 150px;
+    opacity: .7;
+    display: flex;
+}
+.search-items{
+    padding:10px;
+}
+.activelink{
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-weight: bold;
+}
+
+
+/* Results main section */
 
 
 
-
-
-
-
-
-
+/* Footer section */
 footer {
 	margin-top: 20px;
     height: 50px;
-    bottom:0;
-    right:0;
-    left:0;
+    bottom: 0;
+    right 0;
     position: fixed;
     bottom: 0%;
     background-color: #eeeeee;
