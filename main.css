@@ -110,7 +110,7 @@ a {
 	width: 24px;
 }
 #bottom-row{
-    margin-top: 88px;
+    margin-top: 84px;
     position: fixed;
     padding-left: 70px;
     display: flex;
@@ -131,7 +131,7 @@ a {
     display: flex;
 }
 .search-items{
-    padding:10px;
+    padding: 10px;
 }
 .activelink{
     border-bottom: 3px solid #1A73E8;
